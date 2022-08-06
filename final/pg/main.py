@@ -12,7 +12,7 @@ from random import choice, random
 sounds = pygame.mixer
 sounds.pre_init(44100, -16, 2, 512)
 sounds.init()
-sounds.Sound("C:/Users/psych/Desktop/final/pg/MainBgm.wav").play(-1)
+sounds.Sound("MainBgm.wav").play(-1)
 
 
 # 전체 게임 상태
